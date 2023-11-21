@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+</head>
+<body>
+    <h2>Please signup here!!!</h2>
+    <form methos="post">
+        <label>Enter UserName:</label>
+        <input type="text" name="Username"><br><br>
+        <label>Enter Password:</label>
+        <input type="password" name="password"><br><br>
+        <label>Confirm Password:</label>
+        <input type="password"><br><br>
+        <label>Select Gender:</label>
+        <input type="radio" name="gender" ><label>Male</label>
+        <input type="radio"><label>Female</label><br><br>
+        <label>Enter MobileNumber:</label>
+        <input type="number" name="mobilenumber"><br><br>
+        <label>Enter DOB:</label>
+        <input type="date" name="dob"><br><br>
+        <label>Enter Address:</label>
+        <textarea name="address" rows="10" cols="20"></textarea><br><br>
+        <label>Select Qualification:</label>
+        <select name="qualification">
+             <option>Select</option>
+             <option>10th</option>
+            <option>Inter</option>
+            <option>Btech/B.e</option>
+        </select><br><br>
+        <label>Choose your Skills:</label>
+        <!--select write, multiple-->
+        <select name="skills" multiple>
+            <option>Java </option>
+           <option> HTML5</option>
+           <option>CSS3</option>
+           <option>Javascript</option>
+        </select>
+        <br><br>
+        <label>Prefered Shift:</label>
+        <input type="checkbox" name="dayshift">
+        <label>DayShift</label>
+        <input type="checkbox" name="nightshift">
+        <label>NightShift</label>
+        <input type="checkbox" name="day/nightshift">
+        <label>Day/NightShift</label><br><br>
+        <label>Upload your resume:</label>
+        <input type="file" name="resume"><br><br>
+        <input type="submit" value="Register">
+        <input type="submit" value="reset">
+        
+        
+        
+        
+    </form>
+</body>
+</html>
